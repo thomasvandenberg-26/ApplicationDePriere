@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Form Page";
+}
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/Form.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/ApplicationDePriere.styles.css" asp-append-version="true" />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src="~/js/form.js" asp-append-version="true"></script>
+
+    <<div class="container">
+    
+        <div class="wrapper">
+            <ul class="steps">
+                <li class="is-active">Etape 1</li>
+                <li>Etape 2</li>
+                <li>Etape 3</li>
+            </ul>
+            <form class="form-wrapper" id="form_priere" asp-controller="Home" asp-action="CreerPriere" method="post">
+                <fieldset class="section is-active">
+                    <h3>Tes infos</h3>
+                    <input type="text" name="prenom_expe" id="prenom_expe" placeholder="Ton prénom">
+                    <input type="text" name="nom_expe" id="nom_expe" placeholder="Ton nom">
+                    <input type="email" name="email_expe " id="email_expe" placeholder="Ton email">
+                    <div class="button">Suivant</div>
+                </fieldset>
+                <fieldset class="section">
+                    <h3>Pour qui veux tu prier</h3>
+                    <input type="text" name="prenom_dest" id="prenom_dest" placeholder="Son prénom">
+                    <input type="text" name="email_dest" id="email_dest" placeholder="Son email">
+                    <div class="button">Suivant</div>
+                </fieldset>
+                <fieldset class="section">
+                    <h3>Priez</h3>
+                    <input type="text" name="sPriere" id="sPriere" placeholder="Sujet de votre prière">
+                    <textarea name="priere" id="priere" rows="10" cols="70">Vous pouvez écrire ici.</textarea>
+                    <br>
+                    <br>
+                    <br>
+                    <input class="submit button" type="submit" value="Envoyer cette prière">
+                </fieldset>
+                <fieldset class="section">
+                    <h3>Votre prière a été envoyé ! </h3>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
