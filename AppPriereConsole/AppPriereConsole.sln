@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPriereConsole", "AppPriereConsole\AppPriereConsole.csproj", "{B7393BD5-D41D-4857-9548-3D717AF3703A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7393BD5-D41D-4857-9548-3D717AF3703A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7393BD5-D41D-4857-9548-3D717AF3703A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7393BD5-D41D-4857-9548-3D717AF3703A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7393BD5-D41D-4857-9548-3D717AF3703A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F03A5743-F1AD-499B-BF61-70E91F88F5F9}
+	EndGlobalSection
+EndGlobal
